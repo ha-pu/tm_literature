@@ -37,21 +37,21 @@ tm_literature
 \_ Data
 	\_ input
 		\_ wos_base
-			\_ Base Reference #1
-				\_ savedrecs.txt (Export from Clarivate Analytics Web of Science in "Bibtex or Plain Text" format)
-			\_ Base Reference #2
-				\_ savedrecs.txt
-			\_ ...
+		|	\_ Base Reference #1
+		|	|	\_ savedrecs.txt (Export from Clarivate Analytics Web of Science in "Bibtex or Plain Text" format)
+		|	\_ Base Reference #2
+		|	|	\_ savedrecs.txt
+		|	\_ ...
 		\_ wos_jour
-			\_ Journal #1
-				\_ savedrecs1.txt
-				\_ savedrecs2.txt
-				\_ ...
-			\_ Journal #2
-				\_ savedrecs1.txt
-				\_ savedrecs2.txt
-				\_ ...
-			\_ ...
+		|	\_ Journal #1
+		|	|	\_ savedrecs1.txt
+		|	|	\_ savedrecs2.txt
+		|	|	\_ ...
+		|	\_ Journal #2
+		|	|	\_ savedrecs1.txt
+		|	|	\_ savedrecs2.txt
+		|	|	\_ ...
+		|	\_ ...
 		\_ in_evaluation.xlsx
 ```
 
