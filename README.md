@@ -4,6 +4,8 @@ Puhr, H., (2021). Value-Drivers and Constraints of Operational Flexibility: A Te
 
 
 ## Repository structure
+The repository containts the following three folders:
+
 ```
 tm_literature
 \_ Code
@@ -11,7 +13,10 @@ tm_literature
 \_ Plots
 ```
 
+Each of the folders and its contents are described in detail below.
+
 ## Code files
+
 ```
 tm_literature
 \_ Code
@@ -21,6 +26,12 @@ tm_literature
 	\_ 03_run_literature_search.r
 	\_ 04_analyze_results.r
 ```
+
+* The file `00_setup_packages.r` ensures that all necessary packages are installed.
+* In `01_prepare_data.r` all files in *Data/input* are imported and prepared for further analysis.
+* The file `02_extract_term_frequency.r` the relevant search terms are identfied based on term frequency-inverse document frequency.
+* In `03_run_literature_search.r` the results for queries based on the results from `02_extract_term_frequency.r` are analyzed to iterartively define search terms. For optimal definition of search terms, users can define and test their search terms with [regular expressions](https://stringr.tidyverse.org/articles/regular-expressions.html).
+* In `04_analyze_results.r` the results from the literature selection are summarized in tables and plots.
 
 ## Data files
 ```
