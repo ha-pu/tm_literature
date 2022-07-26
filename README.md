@@ -4,12 +4,15 @@ Puhr, H., (2021). Value-Drivers and Constraints of Operational Flexibility: A Te
 
 
 ## Repository structure
+```
 tm_literature
 \_ Code
 \_ Data
 \_ Plots
+```
 
 ## Code files
+```
 tm_literature
 \_ Code
 	\_ 00_setup_packages.r
@@ -17,14 +20,19 @@ tm_literature
 	\_ 02_extract_term_frequency.r
 	\_ 03_run_literature_search.r
 	\_ 04_analyze_results.r
-	
+```
+
 ## Data files
+```
+tm_literature
 \_ Data
 	\_ input
 	\_ output
 	\_ r_files
+```
 		
 ### Input
+```
 tm_literature
 \_ Data
 	\_ input
@@ -45,8 +53,10 @@ tm_literature
 				\_ ...
 			\_ ...
 		\_ in_evaluation.xlsx
+```
 
 ### Output
+```
 tm_literature
 \_ Data
 	\_ output
@@ -58,8 +68,10 @@ tm_literature
 		\_ pub_jour_ref.html
 		\_ pub_jour_result.html
 		\_ pub_period_result.html
+```
 
 ### R files
+```
 tm_literature
 \_ Data
 	\_ r_files
@@ -67,7 +79,10 @@ tm_literature
 		\_ data_results_full.rds
 		\_ data_wos_base.rds
 		\_ data_wos_jour.rds
+```
+
 ## Plots
+```
 tm_literature
 \_ Plots
 	\_ pattern_001.png
@@ -75,3 +90,4 @@ tm_literature
 	\_ ...
 	\_ wordclould_bigram.png
 	\_ wordlcould_word.png
+```

@@ -9,8 +9,8 @@ library(writexl)
 
 # setup ------------------------------------------------------------------------
 dir_rfiles <- "Data/r_files"
-dir_output <- "Data/out_xlsx"
-dir_input <- "Data/in_raw"
+dir_output <- "Data/output"
+dir_input <- "Data/input"
 
 # run document comparison ======================================================
 

@@ -9,8 +9,8 @@ library(writexl)
 
 # setup ------------------------------------------------------------------------
 dir_rfiles <- "Data/r_files"
-dir_output <- "Data/out_xlsx"
-dir_input <- "Data/in_raw"
+dir_output <- "Data/output"
+dir_input <- "Data/input"
 data_wos_jour <- read_rds(file.path(dir_rfiles, "data_wos_jour.rds"))
 
 # run text search --------------------------------------------------------------

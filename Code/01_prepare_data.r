@@ -5,7 +5,7 @@ library(bibliometrix)
 library(tidyverse)
 
 # setup ------------------------------------------------------------------------
-dir_input <- "Data/in_raw"
+dir_input <- "Data/input"
 dir_wos_base <- file.path(dir_input, "wos_base")
 dir_wos_jour <- file.path(dir_input, "wos_jour")
 dir_rfiles <- "Data/r_files"
