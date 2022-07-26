@@ -1,6 +1,6 @@
 ### extract term frequency
 
-# packages =====================================================================
+# packages ---------------------------------------------------------------------
 library(readxl)
 library(tidytext)
 library(tidyverse)
@@ -12,7 +12,7 @@ dir_rfiles <- "Data/r_files"
 dir_output <- "Data/output"
 dir_input <- "Data/input"
 
-# run document comparison ======================================================
+# run document comparison ------------------------------------------------------
 
 ## document-word comparison ----------------------------------------------------
 data_wos_base <- read_rds(file.path(dir_rfiles, "data_wos_base.rds"))
