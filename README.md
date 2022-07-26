@@ -1,6 +1,7 @@
 # tm_literature
 The respository outlines a semi-automated, text mining-based appraoch to search and selection of literature for review analysis. The repository is a companion for the following paper:
-Puhr, H., (2021). Value-Drivers and Constraints of Operational Flexibility: A Text-Mining-Based Literature Review.
+
+Puhr, H., (2021). *Value-Drivers and Constraints of Operational Flexibility: A Text-Mining-Based Literature Review*. (SSRN Working Paper 4173112). Available at [ https://ssrn.com/abstract=4173112]( https://ssrn.com/abstract=4173112).
 
 
 ## Repository structure
