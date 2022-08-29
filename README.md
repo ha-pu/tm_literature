@@ -44,7 +44,9 @@ tm_literature
 	\_ output
 	\_ r_files
 ```
-		
+
+The data structure is organized in input files, output files (xlsx, html), and R files.
+
 ### Input
 
 ```
