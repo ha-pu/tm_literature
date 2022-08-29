@@ -53,7 +53,7 @@ tm_literature
 	\_ input
 		\_ wos_base
 		|	\_ Base Reference #1
-		|	|	\_ savedrecs.txt (Export from Clarivate Analytics Web of Science in "Bibtex or Plain Text" format)
+		|	|	\_ savedrecs.txt
 		|	\_ Base Reference #2
 		|	|	\_ savedrecs.txt
 		|	\_ ...
@@ -69,6 +69,25 @@ tm_literature
 		|	\_ ...
 		\_ in_evaluation.xlsx
 ```
+
+The code requires data to be organized into two folders: `wos_base` and `wos_jour`.
+
+* The folder "wos_base" contains exports from Web of Science that constitute the "base literature". This may be those studies that cite seminal studies in the field.
+* The folder "wos_jour" contains exports from Web of Science that constitute the corpus of literature in which the review is conducted. This may be a full export from all relevant journals.
+
+Both folders should include exports from Clarivate Analytics Web of Science
+in "Bibtex or Plain Text" format saved as txt-files. The code is organized in
+a way to handle sub-directories to better organize the exports.
+
+The file `in_evaluation.xlsx` is an Excel file where users can handle their
+manual screening and selection of the literature. The file contains the
+following columns:
+
+* paper: Author and year citation of the paper
+* id: Web of Science ID of the paper
+* included_screen: TRUE/FALSE flag whether the paper is included after screening screening
+* included_read: TRUE/FALSE flag whether the paper is included after screening screening
+* comment: Column to enter comments on the paper
 
 ### Output
 
